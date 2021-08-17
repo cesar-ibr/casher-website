@@ -1,0 +1,16 @@
+{
+  "name": "vanilla-frontend",
+  "version": "0.0.1",
+  "description": "Simplest Fron-end project",
+  "main": "src/main.js",
+  "author": "Cesar Sanchez <cesar.sanchezibr@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.5.0"
+  }
+}
