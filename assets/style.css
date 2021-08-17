@@ -1,4 +1,3 @@
-html, body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12pt;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

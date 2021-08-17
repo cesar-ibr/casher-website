@@ -1,13 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vanilla</title>
+</head>
+
+<body>
+  <!-- Main Menu -->
+  <section class="p-4 bg-orange text-white sticky top-0 flex items-center justify-end z-10">
+    <img src="/assets/casher-logo.png" class="mr-auto" alt="Casher Logo" width="50">
+    <a href="#services" class="mr-8">Servicios</a>
+    <a href="#contact">Contacto</a>
+  </section>
+  <div class="container mx-auto">
+    <img src="/assets/img/cleaners-group.jpeg" alt="people cleaning" class="md:rounded-b-xl">
+    <section class="relative px-4" style="margin-top: -2rem;">
+      <div class="w-4/5 md:w-3/4 mx-auto bg-white rounded-xl p-4 shadow-md">
+        <img src="/assets/img/casher-logo-full.png" alt="casher logo" width="200" class="mx-auto">
+        <p class="my-4">
+          Estamos dedicados al cuidado de su residencia, industrial, comercial, hospitales,
+          instituciones educativas, edificios. Ayudando al control sanitario para garantizar la seguridad,
+          higiene y tranquilidad de todos. Ofrecemos la mejor calidad en productos y precios del mercado
+          con garantía y productos naciones e internacionales
+        </p>
+        <!-- <p class="text-center">
+          <a href="#servicios" class="rounded-full px-4 py-2 bg-blue text-white">
+            Nuestros Servicios
+          </a>
+        </p> -->
+      </div>
+    </section>
+    <!-- Nuestros Servicios -->
+    <section class="pt-10 md:pt-16 px-2">
+      <h3 id="services" class="text-lg">
+        Nuestros Servicios
+        <hr class="border-t-2 w-16 ml-4">
+      </h3>
+      <div class="flex flex-wrap py-4 gap-4 justify-center">
+        <div class="p-4 rounded-xl shadow-md max-w-xs bg-white">
+          <img src="/assets/icons/vigilance.svg" alt="vigilance">
+          <p>Vigilancia</p>
+        </div>
+        <div class="p-4 rounded-xl shadow-md max-w-xs bg-white">
+          <img src="/assets/icons/cleaning.svg" alt="cleaning" class="mx-auto">
+          <p class="w-24">Personal de Limpieza</p>
+        </div>
+        <div class="p-4 rounded-xl shadow-md max-w-xs bg-white">
+          <img src="/assets/icons/garden.svg" alt="garden">
+          <p>Jardinería</p>
+        </div>
+        <div class="p-4 rounded-xl shadow-md max-w-xs bg-white">
+          <img src="/assets/icons/fumigation.svg" alt="fumigation" class="mx-auto">
+          <p>Fumigaciones</p>
+        </div>
+        <div class="p-4 rounded-xl shadow-md max-w-xs bg-white">
+          <img src="/assets/icons/maintance.svg" alt="maintance">
+          <p class="w-28">Mantenimiento, Reparaciones y Edificaciones</p>
+        </div>
+        <div class="p-4 rounded-xl shadow-md max-w-xs bg-white">
+          <img src="/assets/icons/insumes.svg" alt="insumes">
+          <p class="w-24">Insumos industriales y comerciales</p>
+        </div>
+        <div class="p-4 rounded-xl shadow-md max-w-xs bg-white">
+          <img src="/assets/icons/quimicos.svg" alt="quemicals" class="mx-auto">
+          <p class="w-24">Productos Químicos</p>
+        </div>
+      </div>
+    </section>
+    <!-- Jardineria -->
+    <section class="pt-12 px-4">
+      <h3 class="text-lg pb-4">
+        Jardinería
+        <hr class="border-t-2 w-16 ml-4">
+      </h3>
+      <div class="flex flex-col md:flex-row md:gap-8">
+        <img src="/assets/img/gardener.svg" alt="gardener" class="max-w-xs md:mx-w-sm">
+        <div class="md:w-3/6 p-4">
+          <p class="text-2xl py-4">
+            Lo hacemos con un enfoque profesional y responsable con el medio ambiente
+          </p>
+          <p class="py-4">
+            <strong>Poda de árboles y palmas:</strong>
+            eliminación de ramas que se rozan entre sí, que interfieran con cables,
+            ramas muertas, ramas dañadas.
+          </p>
+          <p class="py-4">
+            <strong>Mantenimiento de jardines:</strong>
+            poda de pasto, de arbustos, programa de fertilización, control de
+            plagas, limpieza de zona de trabajo, retiro de residuos orgánicos o productos de trabajo.
+          </p>
+          <p class="py-4">
+            <strong>Instalación:</strong> de flores y plantas de temporada
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
 </html>
