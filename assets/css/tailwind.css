@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base Styles */
+body {
+  @apply bg-body;
+}
+
+h1 {
+  @apply text-4xl;
+}
+
+hr {
+  @apply border-gray;
+}
+
+button:focus {
+  outline: none;
+}
