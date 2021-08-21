@@ -12,17 +12,19 @@ module.exports = {
     extend: {},
     colors: {
       body: '#F7F7F7',
+      primary: '#F95F59', // orange
       gray: {
+        light: '#CCCCCC',
         DEFAULT: '#2D3043',
-        dark: '#222433'
+        dark: '#222433',
       },
       blue: {
         DEFAULT: '#044EF1',
-        dark: '#000624'
+        dark: '#000624',
       },
       orange: {
         light: '#E2975C',
-        DEFAULT: '#F95F59'
+        DEFAULT: '#F95F59',
       },
       white: '#FFFFFF',
       black: '#333333',

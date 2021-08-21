@@ -33,7 +33,7 @@
       <li>Carpintería</li>
     </ul>
     <a href="/contacto" class="block text-center py-4">
-      <Button color="blue"> Contratar Servicio </Button>
+      <Button css="bg-blue"> Contratar Servicio </Button>
     </a>
     <p class="py-2 text-xl">
       Mantenimiento del Condominio

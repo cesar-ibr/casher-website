@@ -1,6 +1,6 @@
 <template>
   <button
-    :class="['btn', cssColors]"
+    :class="cssColors"
     :disabled="disabled"
     v-on="$listeners"
   >
@@ -11,18 +11,11 @@
 export default {
   props: {
     /**
-     * Button color variant: 'primary', 'secondary', 'blue'...
+     * Tailwing classes: 'bg-primary', 'bg-secondary'...
      */
-    color: {
+    css: {
       type: String,
-      default: 'primary',
-    },
-    /**
-     * Light version of the button
-     */
-    light: {
-      type: Boolean,
-      default: false,
+      default: 'bg-primary',
     },
     /**
      * Disabled status
@@ -34,22 +27,15 @@ export default {
   },
   computed: {
     cssColors () {
-      const color = this.disabled ? 'gray' : this.color;
-      const defaultCss =
-        `px-8 py-4 text-white font-semibold bg-${color}
-        ${this.disabled ? '' : 'shadow hover:shadow-md'}
-        `;
-      const lightCss =
-        `p-2 border border-${color} text-${color}
-        ${this.disabled ? '' : `shadow hover:shadow-md hover:text-white hover:bg-${color}`}
-        `;
-      return this.light ? lightCss : defaultCss;
+      const classes = this.disabled ? 'bg-gray-light' : this.css;
+      const shadow = this.disabled ? '' : 'shadow hover:shadow-md';
+      return ['btn', classes, shadow];
     },
   },
 };
 </script>
 <style lang="postcss" scoped>
 .btn {
-  @apply font-medium rounded-full;
+  @apply font-medium rounded-full px-8 py-4 text-white font-semibold;
 }
 </style>

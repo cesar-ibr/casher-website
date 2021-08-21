@@ -9,7 +9,7 @@
       <p class="text-2xl pt-4 md:pt-0" v-text="title" />
       <slot />
       <a href="/contacto" class="block text-center">
-        <Button color="blue"> Contratar Servicio </Button>
+        <Button css="bg-blue"> Contratar Servicio </Button>
       </a>
     </div>
   </div>

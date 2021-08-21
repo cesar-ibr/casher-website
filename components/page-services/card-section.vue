@@ -8,7 +8,7 @@
       <h1 class="text-2xl py-8" v-text="title" />
       <slot />
       <a href="/contacto" class="block text-center">
-        <Button color="blue"> Contratar Servicio </Button>
+        <Button css="bg-blue"> Contratar Servicio </Button>
       </a>
     </div>
   </div>
