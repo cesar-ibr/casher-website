@@ -4,6 +4,9 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
+    htmlAttrs: {
+      lang: 'es',
+    },
     title: 'Corporativo Casher',
     meta: [
       { charset: 'utf-8' },
@@ -11,27 +14,32 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Servicios de Vigilancia, Limpieza, Jardinería, Fumigaciones, Productos Químicos, Insumos y de Mantenimiento'
+        content: 'Servicios de Vigilancia, Limpieza, Jardinería, Fumigaciones, Productos Químicos, Insumos y de Mantenimiento',
       },
       {
+        hid: 'og:title',
         property: 'og:title',
-        content: 'Corporativo CASHER'
+        content: 'Corporativo CASHER',
       },
       {
+        hid: 'og:type',
         property: 'og:type',
-        content: 'website'
+        content: 'website',
       },
       {
+        hid: 'og:url',
         property: 'og:url',
-        content: 'https://corporativocasher.com'
+        content: 'https://corporativocasher.com',
       },
       {
+        hid: 'og:description',
         property: 'og:description',
-        content: 'Servicios de Vigilancia, Limpieza, Jardinería, Fumigaciones, Productos Químicos, Insumos y de Mantenimiento'
+        content: 'Servicios de Vigilancia, Limpieza, Jardinería, Fumigaciones, Productos Químicos, Insumos y de Mantenimiento',
       },
       {
+        hid: 'og:image',
         property: 'og:image',
-        content: 'https://corporativocasher.com/assets/casher-logo.png'
+        content: 'https://corporativocasher.com/casher-logo.png',
       },
     ],
     link: [
