@@ -54,7 +54,7 @@
     </section>
     <!-- Jardineria -->
     <section class="pt-12 px-4">
-      <h3 class="text-lg pb-4">
+      <h3 class="text-lg pb-4 uppercase">
         Jardinería
         <hr class="border-t-2 w-16 ml-4">
       </h3>
@@ -81,7 +81,7 @@
     </section>
     <!-- Vigilancia -->
     <section class="pt-12 px-4">
-      <h3 class="text-lg pb-4">
+      <h3 class="text-lg pb-4 uppercase">
         Vigilancia
         <hr class="border-t-2 w-16 ml-4">
       </h3>
@@ -102,7 +102,7 @@
     </section>
     <!-- Insumos -->
     <section class="pt-12 px-4">
-      <h3 class="text-lg pb-4">
+      <h3 class="text-lg pb-4 uppercase">
         Insumos
         <hr class="border-t-2 w-16 ml-4">
       </h3>
@@ -129,6 +129,41 @@
         </ul>
       </service-section>
     </section>
+    <!-- Contacto -->
+    <section class="pt-12 px-4">
+      <h3 class="text-lg pb-4 uppercase">
+        Contacta a Nuestro Equipo
+        <hr class="border-t-2 w-16 ml-4">
+      </h3>
+      <card class="w-10/12 md:w-3/5 mx-auto">
+        <p>
+          Queremos saber de ti. Estamos listos para resolver tus
+          dudas a la brevedad. Nos puedes contactar por diversos medios:
+        </p>
+        <div
+          class="py-4 flex flex-wrap items-baseline justify-center space-x-4 space-y-4"
+        >
+          <a href="mailto:hola@corporativocasher.com">
+            <Button css="bg-blue text-center">
+              <Icon icon-name="email" />
+              E-mail
+            </Button>
+          </a>
+          <a href="tel:+528123213805">
+            <Button css="bg-blue text-center">
+              <Icon icon-name="phone" />
+              Llámanos
+            </Button>
+          </a>
+          <a href="https://wa.link/q02fr2">
+            <Button css="bg-blue text-center">
+              <Icon icon-name="whatsapp" />
+              WhatsApp
+            </Button>
+          </a>
+        </div>
+      </card>
+    </section>
   </div>
 </template>
 <router>
@@ -138,10 +173,12 @@
 </router>
 <script>
 import { services } from '@/assets/services';
+import Card from '@/components/Card/Card.vue';
 import ServiceSection from '@/components/page-home/service-section.vue';
 
 export default {
   components: {
+    Card,
     ServiceSection,
   },
   data () {

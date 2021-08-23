@@ -17,7 +17,7 @@ export default {
   props: {
     padding: {
       type: String,
-      default: 'p-6',
+      default: 'p-8',
     },
     rounded: {
       type: Boolean,
