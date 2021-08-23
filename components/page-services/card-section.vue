@@ -4,10 +4,14 @@
       class="h-80 bg-cover"
       :style="imgCss"
     />
-    <div class="w-full md:w-3/4 mx-auto bg-white rounded-xl p-4 shadow-md" style="margin-top: -2rem;">
-      <h1 class="text-2xl py-8" v-text="title" />
+    <div class="w-full md:w-3/4 mx-auto bg-white rounded-xl p-8 shadow-md" style="margin-top: -2rem;">
+      <h1 class="text-2xl py-8 text-center uppercase" v-text="title" />
       <slot />
-      <a href="/contacto" class="block text-center">
+      <a
+        v-if="contactButton"
+        href="/contacto"
+        class="block text-center py-8"
+      >
         <Button css="bg-blue"> Contratar Servicio </Button>
       </a>
     </div>
@@ -34,6 +38,10 @@ export default {
     imgStyles: {
       type: Object,
       default: () => ({}),
+    },
+    contactButton: {
+      type: Boolean,
+      default: true,
     },
   },
   computed: {

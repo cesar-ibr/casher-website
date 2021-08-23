@@ -1,9 +1,11 @@
 <template>
   <card-section
-    title="Nos adaptamos a tu operación y necesidades. Con unidades siempre disponibles para cubrir tu demanda, con inmediatez y eficiencia"
+    title="Unidades siempre disponibles para cubrir tu demanda"
     header-img="bus-driver.jpeg"
   >
     <p class="py-4">
+      Nos adaptamos a tu operación y necesidades. Con unidades
+      siempre disponibles para cubrir tu demanda, con inmediatez y eficiencia
       Mantenemos la puntualidad de tu equipo de trabajo por
       medio de rutas eficientes y de fácil acceso. Viajando en
       unidades sanitizadas y climatizadas.
