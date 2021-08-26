@@ -20,8 +20,8 @@
   </div>
 </template>
 <script>
-import Card from '@/components/Layout/Card';
-import Button from '@/components/Button/Button';
+import Card from '@/components/Card/Card.vue';
+import Button from '@/components/Button/Button.vue';
 
 export default {
   components: {

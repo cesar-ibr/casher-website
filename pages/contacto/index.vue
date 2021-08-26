@@ -12,7 +12,7 @@
     <div
       class="btn-container py-4 flex"
     >
-      <a href="mailto:hola@corporativocasher.com">
+      <a href="mailto:atencion@corporativocasher.com">
         <Button css="bg-blue text-center">
           <Icon icon-name="email" />
           E-mail

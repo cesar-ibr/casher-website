@@ -6,7 +6,7 @@
       class="md:rounded-b-xl"
     >
     <section class="relative px-4" style="margin-top: -2rem">
-      <div class="w-4/5 md:w-3/4 mx-auto bg-white rounded-xl p-4 shadow-md">
+      <Card class="md:max-w-xl mx-auto">
         <img
           src="~/assets/img/casher-logo-full.png"
           alt="casher logo"
@@ -14,13 +14,13 @@
           class="mx-auto"
         >
         <p class="my-4">
-          Estamos dedicados al cuidado de su residencia, industrial, comercial,
-          hospitales, instituciones educativas, edificios. Ayudando al control
-          sanitario para garantizar la seguridad, higiene y tranquilidad de
-          todos. Ofrecemos la mejor calidad en productos y precios del mercado
-          con garantía y productos naciones e internacionales
+          <strong>Corporativo CASHER</strong> estamos especializados en realizar mantenimiento
+          y conservación de sus bienes muebles e inmuebles, a través de programas
+          adecuados en control preventivo y correctivo de acuerdo a tus necesidades.
+          En el cual les brindaras una completa satisfacción y seguridad a tus
+          clientes y colaboradores, en tus instalaciones 100% seguras.
         </p>
-      </div>
+      </Card>
     </section>
     <!-- Todos Nuestros Rubros -->
     <section class="pt-10 md:pt-16 px-2">
@@ -143,7 +143,7 @@
         <div
           class="py-4 flex flex-wrap items-baseline justify-center space-x-4 space-y-4"
         >
-          <a href="mailto:hola@corporativocasher.com">
+          <a href="mailto:atencion@corporativocasher.com">
             <Button css="bg-blue text-center">
               <Icon icon-name="email" />
               E-mail
